@@ -87,5 +87,77 @@ public class TimeServiceTests {
 
     }
 
+    @Test
+    public void testCadastrarTimeComDadosValidos() {
+        Time time = new Time();
+        time.setNome("Nome do Time");
+        time.setIdentificador("time-1");
+
+        Mockito.when(timeRepository.save(Mockito.any(Time.class))).thenReturn(time);
+
+        Time timeCadastrado = timeService.cadastrarTime(time);
+
+        Assertions.assertNotNull(timeCadastrado);
+        Assertions.assertEquals("Nome do Time", timeCadastrado.getNome());
+        Assertions.assertEquals("time-1", timeCadastrado.getIdentificador());
+    }
+
+    @Test
+    public void testCadastrarTimeComNomeVazio() {
+        Time time = new Time();
+        time.setNome("");
+        time.setIdentificador("time-1");
+
+        Assertions.assertThrows(RuntimeException.class, () -> timeService.cadastrarTime(time));
+    }
+
+    @Test
+    public void testCadastrarTimeComIdentificadorVazio() {
+        Time time = new Time();
+        time.setNome("Nome do Time");
+        time.setIdentificador("");
+
+        Assertions.assertThrows(RuntimeException.class, () -> timeService.cadastrarTime(time));
+    }
+
+    @Test
+    public void testListarTimesQuandoNaoHaTimes() {
+        Mockito.when(timeRepository.findAll()).thenReturn(new ArrayList<>());
+
+        List<Time> times = timeService.listarTimes(null);
+
+        Assertions.assertTrue(times.isEmpty());
+    }
+
+    @Test
+    public void testListarTimesComMultiplosTimesNoEstado() {
+        List<Time> lista = new ArrayList<>();
+        Time time1 = new Time();
+        time1.setEstado("SP");
+        time1.setIdentificador("time-1");
+        lista.add(time1);
+
+        Time time2 = new Time();
+        time2.setEstado("SP");
+        time2.setIdentificador("time-2");
+        lista.add(time2);
+
+        Mockito.when(timeRepository.findByEstado("SP")).thenReturn(lista);
+
+        List<Time> times = timeService.listarTimes("SP");
+
+        Assertions.assertEquals(2, times.size());
+        Assertions.assertEquals("time-1", times.get(0).getIdentificador());
+        Assertions.assertEquals("time-2", times.get(1).getIdentificador());
+    }
+
+    @Test
+    public void testListarTimesQuandoEstadoNaoTemTimes() {
+        Mockito.when(timeRepository.findByEstado("RJ")).thenReturn(new ArrayList<>());
+
+        List<Time> times = timeService.listarTimes("RJ");
+
+        Assertions.assertTrue(times.isEmpty());
+    }
 
 }

@@ -1,41 +1,40 @@
 package br.insper.loja.partida.dto;
 
 import br.insper.loja.partida.model.Partida;
+import br.insper.loja.time.model.Time;
 
 public class RetornarPartidaDTO {
     private Integer id;
-    private String nomeMandante;
-    private String nomeVisitante;
+    private Time mandante;
+    private Time visitante;
     private Integer placarMandante;
     private Integer placarVisitante;
-
     private String status;
 
-    public static RetornarPartidaDTO getRetornarPartidaDTO(Partida partida) {
-        RetornarPartidaDTO retornarPartidaDTO = new RetornarPartidaDTO();
-        retornarPartidaDTO.setId(partida.getId());
-        retornarPartidaDTO.setNomeMandante(partida.getMandante().getNome());
-        retornarPartidaDTO.setNomeVisitante(partida.getVisitante().getNome());
-        retornarPartidaDTO.setPlacarMandante(partida.getPlacarMandante());
-        retornarPartidaDTO.setPlacarVisitante(partida.getPlacarVisitante());
-        retornarPartidaDTO.setStatus(partida.getStatus());
-        return retornarPartidaDTO;
+    // Getters e Setters
+
+    public Integer getId() {
+        return id;
     }
 
-    public String getNomeMandante() {
-        return nomeMandante;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public void setNomeMandante(String nomeMandante) {
-        this.nomeMandante = nomeMandante;
+    public Time getMandante() {
+        return mandante;
     }
 
-    public String getNomeVisitante() {
-        return nomeVisitante;
+    public void setMandante(Time mandante) {
+        this.mandante = mandante;
     }
 
-    public void setNomeVisitante(String nomeVisitante) {
-        this.nomeVisitante = nomeVisitante;
+    public Time getVisitante() {
+        return visitante;
+    }
+
+    public void setVisitante(Time visitante) {
+        this.visitante = visitante;
     }
 
     public Integer getPlacarMandante() {
@@ -53,6 +52,7 @@ public class RetornarPartidaDTO {
     public void setPlacarVisitante(Integer placarVisitante) {
         this.placarVisitante = placarVisitante;
     }
+
     public String getStatus() {
         return status;
     }
@@ -61,11 +61,15 @@ public class RetornarPartidaDTO {
         this.status = status;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
+    // Método para criar um DTO a partir de uma Partida
+    public static RetornarPartidaDTO getRetornarPartidaDTO(Partida partida) {
+        RetornarPartidaDTO dto = new RetornarPartidaDTO();
+        dto.setId(partida.getId());
+        dto.setMandante(partida.getMandante());
+        dto.setVisitante(partida.getVisitante());
+        dto.setPlacarMandante(partida.getPlacarMandante());
+        dto.setPlacarVisitante(partida.getPlacarVisitante());
+        dto.setStatus(partida.getStatus());
+        return dto;
     }
 }
