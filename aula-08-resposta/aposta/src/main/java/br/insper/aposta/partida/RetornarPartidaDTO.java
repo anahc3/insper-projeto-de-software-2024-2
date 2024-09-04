@@ -13,14 +13,14 @@ public class RetornarPartidaDTO {
     private String status;
 
     public boolean isEmpate() {
-        return placarMandante == placarVisitante;
+        return placarMandante != null && placarVisitante != null && placarMandante.equals(placarVisitante);
     }
 
     public boolean isVitoriaMandante() {
-        return placarMandante > placarVisitante;
+        return placarMandante != null && placarVisitante != null && placarMandante > placarVisitante;
     }
 
     public boolean isVitoriaVisitante() {
-        return placarVisitante > placarMandante;
+        return placarMandante != null && placarVisitante != null && placarVisitante > placarMandante;
     }
 }
