@@ -83,7 +83,7 @@ public class ApostaServiceTests {
 
     @Test
     public void testListarApostas() {
-        Mockito.when(apostaRepository.findAll()).thenReturn(List.of(new Aposta(), new Aposta()))
+        Mockito.when(apostaRepository.findAll()).thenReturn(List.of(new Aposta(), new Aposta()));
         List<Aposta> apostas = apostaService.listar();
 
         Assertions.assertNotNull(apostas);
