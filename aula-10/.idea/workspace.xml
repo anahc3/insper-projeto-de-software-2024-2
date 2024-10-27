@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8ceb2d3-254c-4dd9-923e-14c53899ba26" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../aula-07/campeonato/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-07/campeonato/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-07/campeonato/src/test/java/br/insper/loja/time/service/TimeServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula-07/campeonato/src/test/java/br/insper/loja/time/service/TimeServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/Aposta.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/Aposta.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/ApostaController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/ApostaController.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/ApostaNaoEncontradaException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/ApostaNaoEncontradaException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/ApostaService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/ApostaService.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.aposta/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.common/Erro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.common/Erro.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.common/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.common/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/PartidaNaoEncontradaException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/PartidaNaoEncontradaException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/PartidaNaoRealizadaException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/PartidaNaoRealizadaException.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/PartidaService.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/PartidaService.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/RetornarPartidaDTO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/RetornarPartidaDTO.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta.partida/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta/ApostaApplication.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta/ApostaApplication.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/br.insper.aposta/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/surefire/TEST-br.insper.aposta.ApostaApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/surefire/TEST-br.insper.aposta.aposta.ApostaServiceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/surefire/br.insper.aposta.ApostaApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/${project.test.result.directory}/surefire/br.insper.aposta.aposta.ApostaServiceTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/ApostaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/aposta/Aposta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/aposta/ApostaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/aposta/ApostaNaoEncontradaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/aposta/ApostaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/aposta/ApostaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/common/Erro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/partida/PartidaNaoEncontradaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/partida/PartidaNaoRealizadaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/partida/PartidaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/java/br/insper/aposta/partida/RetornarPartidaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aposta/src/test/java/br/insper/aposta/aposta/ApostaServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/java/br/insper/tabela/TabelaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/java/br/insper/tabela/partida/PartidaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/java/br/insper/tabela/partida/RetornarPartidaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/java/br/insper/tabela/tabela/TabelaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/java/br/insper/tabela/tabela/TabelaDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/java/br/insper/tabela/tabela/TabelaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula-11/tabela/src/test/java/br/insper/tabela/TabelaApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2o2GyOIEhrF7dBdTgMzIG0GswHC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Faculdade/Quarto Semestre/Projeto de Software/ex-aula/insper-projeto-de-software-2024-2/aula-08-resposta/aposta"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8ceb2d3-254c-4dd9-923e-14c53899ba26" name="Changes" comment="" />
+      <created>1730060511453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730060511453</updated>
+    </task>
+    <servers />
+  </component>
+</project>

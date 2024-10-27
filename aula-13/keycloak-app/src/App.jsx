@@ -6,47 +6,49 @@ import './App.css'
 import { useKeycloak } from '@react-keycloak/web';
 import { Link, Route, Routes } from 'react-router-dom';
 import ListaTime from './time/ListaTime';
+import ListaAposta from './aposta/ListaAposta';
 
 function App() {
-  const { keycloak, initialized } = useKeycloak();
+    const { keycloak, initialized } = useKeycloak();
 
+    const handleLogin = () => {
+        keycloak.login();
+    };
 
-  const handleLogin = () => {
-    keycloak.login();
-  };
+    const handleLogout = () => {
+        keycloak.logout();
+    };
 
-  const handleLogout = () => {
-    keycloak.logout();
-  };
-  
-  return (
-    <div>
-    {initialized && keycloak.authenticated ? (
-      <div>
+    return (
         <div>
-          <div>
-            <Link to='/listaTimes'>Listar Times</Link>
-          </div>
-          <div>  
-            <button onClick={handleLogout}>Logout</button>
-          </div>
+            {initialized && keycloak.authenticated ? (
+                <div>
+                    <div>
+                        <div>
+                            <Link to='/listaTimes'>Listar Times</Link>
+                            <Link to='/listaApostas'>Listar Apostas</Link> {/* Link para Listar Apostas */}
+                        </div>
+                        <div>
+                            <button onClick={handleLogout}>Logout</button>
+                        </div>
+                    </div>
+                    <h1>Bem-vindo, {keycloak.tokenParsed.preferred_username}!</h1>
+                    {keycloak.token}
+
+                    <Routes>
+                        <Route path='/listaTimes' element={<ListaTime />} />
+                        <Route path='/listaApostas' element={<ListaAposta />} /> {/* Rota para ListaAposta */}
+                    </Routes>
+                </div>
+            ) : (
+                <div>
+                    <h1>Você não está autenticado.</h1>
+                    <button onClick={handleLogin}>Login</button>
+                </div>
+            )}
         </div>
-        <h1>Bem-vindo, {keycloak.tokenParsed.preferred_username}!</h1>
-        {keycloak.token}
-
-        <Routes>
-          <Route path='/listaTimes' element={<ListaTime />} />
-        </Routes>
-      </div>
-
-    ) : (
-      <div>
-        <h1>Você não está autenticado.</h1>
-        <button onClick={handleLogin}>Login</button>
-      </div>
-    )}
-  </div>
-  )
+    );
 }
 
-export default App
+export default App;
+
